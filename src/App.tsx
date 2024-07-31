@@ -16,7 +16,7 @@ export default function App() {
           <Route path="about-me" element={<AboutMe />} />
           <Route path="education" element={<Education />} />
           <Route path="employment-history" element={<EmploymentHistory />} />
-          <Route path="coding" element={<Coding />} />
+          <Route path="coding" element={<Coding key={0} name={""} link={""} desc={""} />} />
         </Route>
       </Routes>
     </BrowserRouter>
