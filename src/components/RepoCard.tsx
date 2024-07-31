@@ -1,3 +1,4 @@
+import React from "react";
 import {
   Card,
   CardContent,
@@ -8,7 +9,14 @@ import {
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
-export default function RepoCard(props) {
+interface InjectedProps {
+  name: string;
+  link: string;
+  desc: string;
+  key: number;
+}
+
+const RepoCard: React.FC<InjectedProps> = (props) => {
   return (
     <div className="min-w-[270px] w-1/3 lg:w-1/4 border-4 border-solid border-red-500/50 rounded-xl shrink-0">
       <Card>
@@ -33,4 +41,5 @@ export default function RepoCard(props) {
   );
 }
 
-// variant="outline"
+export default RepoCard;
+

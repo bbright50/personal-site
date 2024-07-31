@@ -6,25 +6,36 @@ const repoArray = [
         name: "My Website",
         link: "https://github.com/bbright50/resume",
         desc: "My personal website to help get to know me better than a resume ever could.",
+        id: 0,
     },
     {
         name: "Top 30 Github Repo Search",
         link: "https://github.com/bbright50/github-search2",
         desc: "A project given to me during my internship to dive deeper into APIs.",
+        id: 1,
     },
     {
         name: "Beginner Scorboard App",
         link: "https://github.com/bbright50/scoreboard",
         desc: "One of my first projects I worked on to learn the basics of Javascript.",
+        id: 2,
     },
     {
         name: "Mobile Friendly Shopping List",
         link: "https://github.com/bbright50/add-to-cart",
         desc: "My first mobile friendly app to keep track of our groccery needs.",
+        id: 3,
     },
 ];
 
-export default function Coding() {
+interface ChildProps {
+    name: string;
+    link: string;
+    desc: string;
+    id: number;
+}
+
+const Coding: React.FC<ChildProps> = ({ id }) => {
     return (
         <div className="bg-[url('src/assets/white-w-yellow-bg.svg')] w-full text-center max-md:mt-8">
             <h1 className="text-center text-3xl mb-6">Coding Projects</h1>
@@ -45,7 +56,7 @@ export default function Coding() {
                 {repoArray.map((repo) => {
                     return (
                         <RepoCard
-                            key={repo.index + 1}
+                            key={id}
                             link={repo.link}
                             name={repo.name}
                             desc={repo.desc}
@@ -56,3 +67,5 @@ export default function Coding() {
         </div>
     );
 }
+
+export default Coding;
