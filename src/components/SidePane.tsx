@@ -29,8 +29,8 @@ export default function SidePane() {
           </div>
           <div className="pt-2">
             <div className="flex flex-wrap text-white gap-2">
-              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">HTML</p>
-              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">CSS</p>
+              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">HTML5</p>
+              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">CSS3</p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">JavaScript</p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">
                 Tailwind CSS
@@ -44,11 +44,21 @@ export default function SidePane() {
                 Web Deployment
               </p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Rest API</p>
-              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Github</p>
+              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Git</p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">
                 Responsive UI
               </p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Figma</p>
+              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Agile</p>
+              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Front-end Design</p>
+              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Vite</p>
+              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Responsive UI</p>
+              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">ShadCN UI</p>
+              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Vercel</p>
+              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Salesforce</p>
+              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">CI/CD</p>
+              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Linear</p>
+              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Chakra UI</p>
             </div>
           </div>
         </div>

@@ -2,7 +2,7 @@
 
 export default function AboutMe() {
     return (
-        <div className="flex flex-col items-center bg-[url('src/assets/white-w-yellow-bg.svg')] w-full text-2xl pt-20">
+        <div className="flex flex-col items-center bg-[url('src/assets/white-w-yellow-bg.svg')] w-full text-2xl pt-10 md:pt-20">
             <h1 className="font-bold text-4xl">About Me</h1>
             <p className="italic text-lg m-10">
                 I am love being a husband and father more than anything! My family is at

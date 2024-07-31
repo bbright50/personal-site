@@ -2,7 +2,7 @@
 
 export default function Education() {
     return (
-        <div className="bg-[url('src/assets/white-w-yellow-bg.svg')] w-full p-8">
+        <div className="bg-[url('src/assets/white-w-yellow-bg.svg')] w-full p-4 md:p-8">
             <div className="flex justify-between">
                 <h2 className="text-xl ml-6 mt-4">Biochemistry (Coursework)</h2>
                 <h2 className="text-xl hidden lg:block mt-4">Jan 2015 – Apr 2016</h2>

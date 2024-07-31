@@ -42,10 +42,14 @@ const Coding: React.FC<ChildProps> = () => {
             <a
                 href="https://www.successr.ai"
                 target="_blank"
-                className="text-xl hover:text-red-500/80"
+                className="text-xl hover:text-red-500/80 underline"
             >
                 Successr Home Page
             </a>
+            <p className="text-lg my-2 mx-10">
+                With very minimal oversight, I worked with a design contractor
+                to help design and turn a figma file into this responsive site using React and TypeScript.
+            </p>
             <iframe
                 src="https://www.successr.ai"
                 title="Successr Home Page"

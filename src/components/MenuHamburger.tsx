@@ -21,21 +21,21 @@ export default function MenuHamburger() {
               </Drawer.Title>
               <nav className="flex flex-col mt-8 gap-y-6">
                 <Drawer.Close asChild>
-                  <NavLink to="/">Home</NavLink>
+                  <NavLink to="/" className={"hover:text-red-500/80 w-fit"}>Home</NavLink>
                 </Drawer.Close>
                 <Drawer.Close asChild>
-                  <NavLink to="/about-me">About Me</NavLink>
+                  <NavLink to="/about-me" className={"hover:text-red-500/80 w-fit"}>About Me</NavLink>
                 </Drawer.Close>
                 <Drawer.Close asChild>
-                  <NavLink to="/education">Education</NavLink>
+                  <NavLink to="/education" className={"hover:text-red-500/80 w-fit"}>Education</NavLink>
                 </Drawer.Close>
                 <Drawer.Close asChild>
-                  <NavLink to="/employment-history">Employment History</NavLink>
+                  <NavLink to="/employment-history" className={"hover:text-red-500/80 w-fit"}>Employment History</NavLink>
                 </Drawer.Close>
                 <Drawer.Close asChild>
-                  <NavLink to="/coding">Coding</NavLink>
+                  <NavLink to="/coding" className={"hover:text-red-500/80 w-fit"}>Coding</NavLink>
                 </Drawer.Close>
-                <Link to="https://www.linkedin.com/in/benjamin-bright-963622194/">
+                <Link to="https://www.linkedin.com/in/benjamin-bright-963622194/" className={"hover:text-red-500/80 w-fit"}>
                   LinkedIn
                 </Link>
               </nav>
