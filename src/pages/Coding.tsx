@@ -4,7 +4,7 @@ import RepoCard from "@/components/RepoCard";
 const repoArray = [
     {
         name: "My Website",
-        link: "https://github.com/bbright50/resume",
+        link: "https://github.com/bbright50/personal-site",
         desc: "My personal website to help get to know me better than a resume ever could.",
         key: 0,
     },
