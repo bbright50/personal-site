@@ -22,7 +22,6 @@ const RepoCard: React.FC<InjectedProps> = ({ name, link, desc, key }) => {
       <Card key={key}>
         <CardHeader>
           <CardTitle>{name}</CardTitle>
-          <CardDescription>Card Description</CardDescription>
         </CardHeader>
         <CardContent>
           <p>{desc}</p>
