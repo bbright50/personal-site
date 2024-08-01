@@ -2,6 +2,12 @@
 import { Link, NavLink } from "react-router-dom";
 import { Drawer } from "vaul";
 import { FaBars } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaHome } from "react-icons/fa";
+import { IoSchoolSharp } from "react-icons/io5";
+import { MdWork } from "react-icons/md";
+import { FaFileCode } from "react-icons/fa";
+import { FaIdCard } from "react-icons/fa";
 
 export default function MenuHamburger() {
   return (
@@ -21,21 +27,22 @@ export default function MenuHamburger() {
               </Drawer.Title>
               <nav className="flex flex-col mt-8 gap-y-6">
                 <Drawer.Close asChild>
-                  <NavLink to="/" className={"hover:text-red-500/80 w-fit"}>Home</NavLink>
+                  <NavLink to="/" className={"hover:text-red-500/80 w-fit inline-flex"}><FaHome className="hover:fill-red-500/80 mt-1 mr-1" />Home</NavLink>
                 </Drawer.Close>
                 <Drawer.Close asChild>
-                  <NavLink to="/about-me" className={"hover:text-red-500/80 w-fit"}>About Me</NavLink>
+                  <NavLink to="/about-me" className={"hover:text-red-500/80 w-fit inline-flex"}><FaIdCard className="hover:fill-red-500/80 mt-1 mr-1" />About Me</NavLink>
                 </Drawer.Close>
                 <Drawer.Close asChild>
-                  <NavLink to="/education" className={"hover:text-red-500/80 w-fit"}>Education</NavLink>
+                  <NavLink to="/education" className={"hover:text-red-500/80 w-fit inline-flex"}><IoSchoolSharp className="hover:fill-red-500/80 mt-1 mr-1" />Education</NavLink>
                 </Drawer.Close>
                 <Drawer.Close asChild>
-                  <NavLink to="/employment-history" className={"hover:text-red-500/80 w-fit"}>Employment History</NavLink>
+                  <NavLink to="/employment-history" className={"hover:text-red-500/80 w-fit inline-flex"}><MdWork className="hover:fill-red-500/80 mt-1 mr-1" />Employment</NavLink>
                 </Drawer.Close>
                 <Drawer.Close asChild>
-                  <NavLink to="/coding" className={"hover:text-red-500/80 w-fit"}>Coding</NavLink>
+                  <NavLink to="/coding" className={"hover:text-red-500/80 w-fit inline-flex"}><FaFileCode className="hover:fill-red-500/80 mt-1 mr-1" />Portfolio</NavLink>
                 </Drawer.Close>
-                <Link to="https://www.linkedin.com/in/benjamin-bright-963622194/" className={"hover:text-red-500/80 w-fit"}>
+                <Link to="https://www.linkedin.com/in/benjamin-bright-963622194/" className={"hover:text-red-500/80 w-fit inline-flex"}>
+                  <FaLinkedin className="hover:fill-red-500/80 mt-1 mr-1" />
                   LinkedIn
                 </Link>
               </nav>
