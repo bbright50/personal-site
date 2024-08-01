@@ -50,11 +50,12 @@ const Coding: React.FC<ChildProps> = () => {
                 With very minimal oversight, I worked with a design contractor
                 to help design and turn a figma file into this responsive site using React and TypeScript.
             </p>
-            <iframe
+            <h1 className="m-16 text-3xl border-2 border-solid border-black rounded-2xl py-24">Will be deployed soon</h1>
+            {/* <iframe
                 src="https://www.successr.ai"
                 title="Successr Home Page"
                 className="aspect-video w-11/12 min-w-[320px] mx-auto mb-6"
-            ></iframe>
+            ></iframe> */}
             <h1 className="text-center text-2xl mb-8">My Repos</h1>
             <div className="flex flex-wrap justify-evenly gap-4 lg:gap-6">
                 {repoArray.map(({ name, link, desc, key }) => {
