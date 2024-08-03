@@ -37,7 +37,6 @@ const RepoCard: React.FC<InjectedProps> = ({ name, link, desc, key }) => {
       </Card>
     </div>
   );
-}
+};
 
 export default RepoCard;
-

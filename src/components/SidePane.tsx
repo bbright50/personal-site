@@ -50,9 +50,13 @@ export default function SidePane() {
               </p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Figma</p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Agile</p>
-              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Front-end Design</p>
+              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">
+                Front-end Design
+              </p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Vite</p>
-              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Responsive UI</p>
+              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">
+                Responsive UI
+              </p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">ShadCN UI</p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Vercel</p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Salesforce</p>

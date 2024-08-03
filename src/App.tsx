@@ -1,4 +1,3 @@
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
@@ -16,7 +15,10 @@ export default function App() {
           <Route path="about-me" element={<AboutMe />} />
           <Route path="education" element={<Education />} />
           <Route path="employment-history" element={<EmploymentHistory />} />
-          <Route path="coding" element={<Coding key={0} name={""} link={""} desc={""} />} />
+          <Route
+            path="coding"
+            element={<Coding key={0} name={""} link={""} desc={""} />}
+          />
         </Route>
       </Routes>
     </BrowserRouter>
