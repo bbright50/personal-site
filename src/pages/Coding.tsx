@@ -2,7 +2,7 @@ import RepoCard from "@/components/RepoCard";
 
 const repoArray = [
   {
-    name: "My Website",
+    name: "My Personal Website",
     link: "https://github.com/bbright50/personal-site",
     desc: "My personal website to help get to know me better than a resume ever could.",
     key: 0,
@@ -14,7 +14,7 @@ const repoArray = [
     key: 1,
   },
   {
-    name: "Beginner Scorboard App",
+    name: "Beginner Scoreboard App",
     link: "https://github.com/bbright50/scoreboard",
     desc: "One of my first projects I worked on to learn the basics of Javascript.",
     key: 2,
@@ -36,7 +36,7 @@ interface ChildProps {
 
 const Coding: React.FC<ChildProps> = () => {
   return (
-    <div className="bg-[url('src/assets/white-w-yellow-bg.svg')] w-full text-center max-md:mt-8">
+    <div className="bg-[url('./assets/white-w-yellow-bg.svg')] w-full text-center max-md:mt-8">
       <h1 className="text-center text-3xl mb-6">Portfolio</h1>
       <a
         href="https://www.successr.ai"

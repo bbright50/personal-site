@@ -1,6 +1,6 @@
 export default function EmploymentHistory() {
   return (
-    <div className="flex flex-col bg-[url('src/assets/white-w-yellow-bg.svg')] w-full text-2xl p-4 md:p-8">
+    <div className="flex flex-col bg-[url('./assets/white-w-yellow-bg.svg')] w-full text-2xl p-4 md:p-8">
       <div className="text-center">Employment History</div>
       <div>
         <div className="flex justify-between">

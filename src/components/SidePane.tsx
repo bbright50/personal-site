@@ -40,29 +40,29 @@ export default function SidePane() {
                 React Router
               </p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">TypeScript</p>
+              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Phython</p>
+              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Git</p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">
                 Web Deployment
               </p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Rest API</p>
-              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Git</p>
+              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Figma</p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">
                 Responsive UI
               </p>
-              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Figma</p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Agile</p>
+              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">
+                Responsive UI
+              </p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">
                 Front-end Design
               </p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Vite</p>
-              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">
-                Responsive UI
-              </p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">ShadCN UI</p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Vercel</p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Salesforce</p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">CI/CD</p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Linear</p>
-              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Chakra UI</p>
             </div>
           </div>
         </div>

@@ -1,20 +1,20 @@
 "use client";
 import { Link, NavLink } from "react-router-dom";
 import { Drawer } from "vaul";
-import { FaBars } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaHome } from "react-icons/fa";
 import { IoSchoolSharp } from "react-icons/io5";
 import { MdWork } from "react-icons/md";
 import { FaFileCode } from "react-icons/fa";
 import { FaIdCard } from "react-icons/fa";
+import { FaHamburger } from "react-icons/fa";
 
 export default function MenuHamburger() {
   return (
     <Drawer.Root direction="left">
       <Drawer.Trigger asChild>
         <button>
-          <FaBars />
+          <FaHamburger className="text-xl mt-1" />
         </button>
       </Drawer.Trigger>
       <Drawer.Portal>

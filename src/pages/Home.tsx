@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="flex flex-col bg-[url('src/assets/white-w-yellow-bg.svg')] w-full text-center text-2xl pt-20">
+    <div className="flex flex-col bg-[url('./assets/white-w-yellow-bg.svg')] w-full text-center text-2xl pt-20">
       <h1 className="text-4xl">In Short:</h1>
       <h1 className="text-4xl">I</h1>
       <ul>
