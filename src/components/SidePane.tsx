@@ -65,6 +65,7 @@ export default function SidePane() {
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Salesforce</p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">CI/CD</p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Linear</p>
+              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">OOP</p>
             </div>
           </div>
         </div>

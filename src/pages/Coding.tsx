@@ -45,7 +45,7 @@ const Coding: React.FC<ChildProps> = () => {
     <div className="bg-[url('./assets/white-w-yellow-bg.svg')] w-full text-center max-md:mt-8">
       <h1 className="text-center text-3xl mb-6">Portfolio</h1>
       <a
-        href="https://www.successr.ai"
+        href="https://preview.successr.ai/"
         target="_blank"
         className="text-xl hover:text-red-500/80 underline"
       >
