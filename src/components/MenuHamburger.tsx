@@ -64,7 +64,7 @@ export default function MenuHamburger() {
                 </Drawer.Close>
                 <Drawer.Close asChild>
                   <NavLink
-                    to="/coding"
+                    to="/portfolio"
                     className={"hover:text-red-500/80 w-fit inline-flex"}
                   >
                     <FaFileCode className="hover:fill-red-500/80 mt-1 mr-1" />

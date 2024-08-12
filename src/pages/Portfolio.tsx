@@ -40,7 +40,7 @@ interface ChildProps {
   key: number;
 }
 
-const Coding: React.FC<ChildProps> = () => {
+const Portfolio: React.FC<ChildProps> = () => {
   return (
     <div className="bg-[url('./assets/white-w-yellow-bg.svg')] w-full text-center max-md:mt-8">
       <h1 className="text-center text-3xl mb-6">Portfolio</h1>
@@ -72,4 +72,4 @@ const Coding: React.FC<ChildProps> = () => {
   );
 };
 
-export default Coding;
+export default Portfolio;

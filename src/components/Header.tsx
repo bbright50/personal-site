@@ -51,7 +51,7 @@ export default function Header() {
               className={
                 "col-span-2 self-center text-center col-start-2 border-2 border-red-500/70 hover:bg-red-500/70 hover:text-white px-2 lg:px-3 lg:py-1 rounded-2xl inline-flex justify-self-start"
               }
-              to="/coding"
+              to="/portfolio"
             >
               <FaFileCode className="hover:fill-red-500/80 mt-1 mr-1" />
               Portfolio
