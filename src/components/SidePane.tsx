@@ -40,7 +40,7 @@ export default function SidePane() {
                 React Router
               </p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">TypeScript</p>
-              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Phython</p>
+              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Python</p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Git</p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Shells</p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Terminals</p>
