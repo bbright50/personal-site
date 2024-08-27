@@ -32,13 +32,12 @@ export default function SidePane() {
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">HTML5</p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">CSS3</p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">JavaScript</p>
+              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">SQL</p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">
                 Tailwind CSS
               </p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">React</p>
-              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">
-                React Router
-              </p>
+              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Angular</p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">TypeScript</p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Python</p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Git</p>

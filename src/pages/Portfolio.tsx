@@ -2,34 +2,46 @@ import RepoCard from "@/components/RepoCard";
 
 const repoArray = [
   {
+    name: "Tour of Heroes",
+    link: "https://github.com/bbright50/angular-tour-of-heroes",
+    desc: "Worked through the Tour of Heroes tutorial to better learn Angular.",
+    key: 0,
+  },
+  {
     name: "Book Reader",
     link: "https://github.com/bbright50/bookbot",
     desc: "My first Python project that can take a book, read it and give some info on it.",
-    key: 0,
+    key: 1,
   },
   {
     name: "My Personal Website",
     link: "https://github.com/bbright50/personal-site",
     desc: "My personal website to help get to know me better than a resume ever could.",
-    key: 1,
+    key: 2,
   },
   {
     name: "Top 30 Github Repo Search",
     link: "https://github.com/bbright50/github-search2",
     desc: "A project given to me during my internship to dive deeper into APIs.",
-    key: 2,
+    key: 3,
   },
   {
     name: "Beginner Scoreboard App",
     link: "https://github.com/bbright50/scoreboard",
     desc: "One of my first projects I worked on to learn the basics of Javascript.",
-    key: 3,
+    key: 4,
   },
   {
     name: "Mobile Friendly Shopping List",
     link: "https://github.com/bbright50/add-to-cart",
     desc: "My first mobile friendly app to keep track of our groccery needs.",
-    key: 4,
+    key: 5,
+  },
+  {
+    name: "Asteroids Game",
+    link: "https://github.com/bbright50/asteroids-game",
+    desc: "A simple version of the popular video game written in Python.",
+    key: 6,
   },
 ];
 
