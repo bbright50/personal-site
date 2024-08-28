@@ -43,6 +43,12 @@ const repoArray = [
     desc: "A simple version of the popular video game written in Python.",
     key: 6,
   },
+  {
+    name: "GraphQL Server",
+    link: "https://github.com/bbright50/graphql-server",
+    desc: "A server I built to learn GraphQL better, and to have just in case.",
+    key: 7,
+  },
 ];
 
 interface ChildProps {

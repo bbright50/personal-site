@@ -42,7 +42,7 @@ export default function SidePane() {
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Python</p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Git</p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Shells</p>
-              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Terminals</p>
+              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">GraphQL</p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">
                 Web Deployment
               </p>
