@@ -1,10 +1,10 @@
 import RepoCard from "@/components/RepoCard";
-import GraphQL_Logo from "/Users/benjibright/Documents/coding/personal/resume-ts/src/assets/GraphQL_Logo.png";
-import GoLangLogo from "/Users/benjibright/Documents/coding/personal/resume-ts/src/assets/GoLangLogo.png";
-import AngularLogo from "/Users/benjibright/Documents/coding/personal/resume-ts/src/assets/AngularLogo.png";
-import PythonLogo from "/Users/benjibright/Documents/coding/personal/resume-ts/src/assets/PythonLogo.webp";
-import ReactLogo from "/Users/benjibright/Documents/coding/personal/resume-ts/src/assets/ReactLogo.png";
-import JavaScriptLogo from "/Users/benjibright/Documents/coding/personal/resume-ts/src/assets/JavaScriptLogo.jpeg";
+import GraphQL_Logo from "../assets/GraphQL_Logo.png";
+import GoLangLogo from "../assets/GoLangLogo.png";
+import AngularLogo from "../assets/AngularLogo.png";
+import PythonLogo from "../assets/PythonLogo.webp";
+import ReactLogo from "../assets/ReactLogo.png";
+import JavaScriptLogo from "../assets/JavaScriptLogo.jpeg";
 
 const repoArray = [
   {
