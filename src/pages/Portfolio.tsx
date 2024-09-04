@@ -1,5 +1,5 @@
 import RepoCard from "@/components/RepoCard";
-import GraphQL_Logo from "/Users/benjibright/Documents/coding/personal/resume-ts/src/assets/GraphQL_Logo.svg.png";
+import GraphQL_Logo from "/Users/benjibright/Documents/coding/personal/resume-ts/src/assets/GraphQL_Logo.png";
 import GoLangLogo from "/Users/benjibright/Documents/coding/personal/resume-ts/src/assets/GoLangLogo.png";
 import AngularLogo from "/Users/benjibright/Documents/coding/personal/resume-ts/src/assets/AngularLogo.png";
 import PythonLogo from "/Users/benjibright/Documents/coding/personal/resume-ts/src/assets/PythonLogo.webp";
