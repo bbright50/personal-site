@@ -12,15 +12,19 @@ interface InjectedProps {
   name: string;
   link: string;
   desc: string;
+  logo: string;
   key: number;
 }
 
-const RepoCard: React.FC<InjectedProps> = ({ name, link, desc, key }) => {
+const RepoCard: React.FC<InjectedProps> = ({ name, link, desc, logo, key }) => {
   return (
     <div className="min-w-[270px] w-1/3 lg:w-1/4 border-4 border-solid border-red-500/50 rounded-xl shrink-0">
-      <Card key={key}>
+      <Card key={key} className="rounded-xl">
         <CardHeader>
-          <CardTitle>{name}</CardTitle>
+          <CardTitle className="flex justify-evenly items-center">
+            <img src={logo} alt="Logo" className="h-8" />
+            {name}
+          </CardTitle>
         </CardHeader>
         <CardContent>
           <p>{desc}</p>

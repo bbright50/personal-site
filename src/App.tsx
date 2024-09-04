@@ -17,7 +17,9 @@ export default function App() {
           <Route path="employment-history" element={<EmploymentHistory />} />
           <Route
             path="portfolio"
-            element={<Portfolio key={0} name={""} link={""} desc={""} />}
+            element={
+              <Portfolio key={0} name={""} link={""} desc={""} logo={""} />
+            }
           />
         </Route>
       </Routes>

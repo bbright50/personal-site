@@ -41,7 +41,8 @@ export default function SidePane() {
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">TypeScript</p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Python</p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Git</p>
-              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Shells</p>
+              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Docker</p>
+              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Shell</p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">GraphQL</p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">
                 Web Deployment
@@ -52,9 +53,7 @@ export default function SidePane() {
                 Responsive UI
               </p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Agile</p>
-              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">
-                Responsive UI
-              </p>
+              <p className="bg-red-500/70 px-3 py-1 rounded-2xl">Docker</p>
               <p className="bg-red-500/70 px-3 py-1 rounded-2xl">
                 Front-end Design
               </p>
