@@ -21,7 +21,7 @@ export default function SidePane() {
           >
             Github: @bbright50
           </a>
-          <p>benjamin.bright50 AT Gmail DOT com</p>
+          <p>benjamin.bright50@gmail.com</p>
         </div>
         <div className=" ml-8 flex flex-col">
           <div className="text-xl md:text-2xl">
