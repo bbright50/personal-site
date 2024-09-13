@@ -15,10 +15,10 @@ const repoArray = [
     key: 0,
   },
   {
-    name: "Book Reader",
+    name: "Maze Solver",
     logo: `${PythonLogo}`,
-    link: "https://github.com/bbright50/bookbot",
-    desc: "My first Python project that can take a book, read it and give some info on it.",
+    link: "https://github.com/bbright50/maze-solver",
+    desc: "A fun random maze generator that solves itself.",
     key: 1,
   },
   {
@@ -69,6 +69,13 @@ const repoArray = [
     link: "https://github.com/bbright50/go-server",
     desc: "A server I built while learning Go.",
     key: 8,
+  },
+  {
+    name: "Book Reader",
+    logo: `${PythonLogo}`,
+    link: "https://github.com/bbright50/bookbot",
+    desc: "My first Python project that can take a book, read it and give some info on it.",
+    key: 9,
   },
 ];
 
