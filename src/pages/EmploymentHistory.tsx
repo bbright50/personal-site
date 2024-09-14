@@ -5,7 +5,7 @@ export default function EmploymentHistory() {
       <div>
         <div className="flex justify-between">
           <h2 className="hidden lg:block ml-6 mt-4">
-            Frontend Developer - Intern
+            Full Stack Software Developer - Intern
           </h2>
           <h2 className="block lg:hidden ml-6 mt-4">Frontend Dev</h2>
           <h2 className="hidden lg:block mt-4">Mar 2024 - Present</h2>
@@ -14,17 +14,20 @@ export default function EmploymentHistory() {
         <h3 className="text-base ml-8">Successr.ai - Lehi, UT</h3>
         <ul className="list-disc list-inside ml-6 mt-2 text-lg">
           <li>
-            Worked directly with executive team to build brand-new,
-            mobile-first, responsive front-end for entire company from scratch
-            (React/Vite/TailwindCSS/TypeScript).
+            Scaffolded frontend architecture for high visibility customer facing
+            application.
           </li>
           <li>
-            Collaborated with design contractors to translate Figma design into
-            layout and component library.
+            Collaborated directly with UX, company, and stakeholders to add
+            mission-critical features.
           </li>
           <li>
-            Used Git for version control, Linear for project management, Agile
-            development practices.
+            Implemented backend functionality to enhance customer experience
+            under the direction of the CTO and senior technical team.
+          </li>
+          <li>
+            Contributed to dev team code reviews to ensure high quality,
+            maintainable code.
           </li>
         </ul>
         <div className="flex justify-between">

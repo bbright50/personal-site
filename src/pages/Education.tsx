@@ -1,6 +1,7 @@
 export default function Education() {
   return (
     <div className="bg-[url('./assets/white-w-yellow-bg.svg')] w-full p-4 md:p-8">
+      <h1 className="text-2xl mt-8">Education</h1>
       <div className="flex justify-between">
         <h2 className="text-xl ml-6 mt-4">Biochemistry (Coursework)</h2>
         <h2 className="text-xl hidden lg:block mt-4">Jan 2015 – Apr 2016</h2>
@@ -42,6 +43,48 @@ export default function Education() {
         <h2 className="text-xl mt-4">Aug 2024</h2>
       </div>
       <h3 className="text-sm ml-8">Boot.dev</h3>
+      {/* Volunteer Section */}
+      <h1 className="text-2xl mt-8">Volunteer Opportunities</h1>
+      <div className="flex justify-between">
+        <h2 className="text-xl ml-6 mt-4">Eagle Scout</h2>
+        <h2 className="text-xl mt-4">March 2008</h2>
+      </div>
+      <h3 className="text-sm ml-8">
+        Learned many skills while completing more than a baker's dozen service
+        projects.
+      </h3>
+      <div className="flex justify-between">
+        <h2 className="text-xl ml-6 mt-4">
+          2 Year Volunteer Mission for the LDS Church
+        </h2>
+        <h2 className="text-xl mt-4">Sept 2009 - Sept 2011</h2>
+      </div>
+      <h3 className="text-sm ml-8">
+        Paused my pursuits at the time to move to the south of Brazil (Santa
+        Catarina) to teach and serve the local people in many different ways.
+        (Self Funded)
+      </h3>
+
+      <div className="flex justify-between">
+        <h2 className="text-xl ml-6 mt-4">
+          Primary Children's Hospital Volunteer
+        </h2>
+        <h2 className="text-xl mt-4">July 2015 - May 2016</h2>
+      </div>
+      <h3 className="text-sm ml-8">
+        Volunteered to help sick and injured children and their families while
+        they were dealing with various tragedies.
+      </h3>
+
+      <div className="flex justify-between">
+        <h2 className="text-xl ml-6 mt-4">Hospital Research Fellow</h2>
+        <h2 className="text-xl mt-4">Sept 2015 - Jan 2016</h2>
+      </div>
+      <h3 className="text-sm ml-8">
+        Seperate from my volunteer work at Primary Children's Hospital, I would
+        help conduct various rearch projects in the Emergency Room of the
+        hospital.
+      </h3>
     </div>
   );
 }

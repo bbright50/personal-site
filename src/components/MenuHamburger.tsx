@@ -72,7 +72,7 @@ export default function MenuHamburger() {
                   </NavLink>
                 </Drawer.Close>
                 <Link
-                  to="https://www.linkedin.com/in/benjamin-bright-963622194/"
+                  to="https://www.linkedin.com/in/bbright50/"
                   className={"hover:text-red-500/80 w-fit inline-flex"}
                 >
                   <FaLinkedin className="hover:fill-red-500/80 mt-1 mr-1" />
