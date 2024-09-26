@@ -92,7 +92,7 @@ const Portfolio: React.FC<ChildProps> = () => {
     <div className="bg-[url('./assets/white-w-yellow-bg.svg')] w-full text-center max-md:mt-8">
       <h1 className="text-center text-3xl mb-6">Portfolio</h1>
       <a
-        href="https://preview.successr.ai/"
+        href="https://www.successr.ai/"
         target="_blank"
         className="text-xl hover:text-red-500/80 underline"
       >
@@ -105,7 +105,7 @@ const Portfolio: React.FC<ChildProps> = () => {
       </p>
       {/* <h1 className="m-16 text-3xl border-2 border-solid border-black rounded-2xl py-24">Will be deployed soon</h1> */}
       <iframe
-        src="https://preview.successr.ai/"
+        src="https://www.successr.ai/"
         title="Successr Home Page"
         className="aspect-video w-11/12 min-w-[320px] mx-auto mb-6"
       ></iframe>
