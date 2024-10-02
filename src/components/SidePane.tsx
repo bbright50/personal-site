@@ -5,7 +5,7 @@ export default function SidePane() {
     <div className="flex flex-col min-h-screen justify-evenly bg-gradient-to-b from-yellow-50 to-yellow-300 text-black font-Roboto font-bold md:w-[400px]">
       <img
         src={BenjiHeadshot}
-        alt="A Picture of Benji"
+        alt="A Picture of Benjamin"
         className="h-[250px] aspect-auto mx-auto pt-4 md:pt-8 "
       />
       <div className="mb-20">
@@ -14,7 +14,7 @@ export default function SidePane() {
         </div>
         <div className="px-8 md:px-16 pt-2 pb-8 flex flex-col space-y-1.5 font-normal">
           <p>Vineyard, Utah</p>
-          <p>Position: Junior Software Developer</p>
+          <p>Position: Full Stack Software Developer</p>
           <a
             href="https://github.com/bbright50"
             className="hover:text-red-500/80 w-fit"

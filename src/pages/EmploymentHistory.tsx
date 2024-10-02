@@ -5,10 +5,32 @@ export default function EmploymentHistory() {
       <div>
         <div className="flex justify-between">
           <h2 className="hidden lg:block ml-6 mt-4">
-            Full Stack Software Developer - Intern
+            Full Stack Software Developer
           </h2>
-          <h2 className="block lg:hidden ml-6 mt-4">Frontend Dev</h2>
-          <h2 className="hidden lg:block mt-4">Mar 2024 - Present</h2>
+          <h2 className="block lg:hidden ml-6 mt-4">Full Stack Dev</h2>
+          <h2 className="hidden lg:block mt-4">June 2024 - Present</h2>
+          <h2 className="block lg:hidden mt-4 ">03/24 - Now</h2>
+        </div>
+        <h3 className="text-base ml-8">Successr.ai - Lehi, UT</h3>
+        <ul className="list-disc list-inside ml-6 mt-2 text-lg">
+          <li>
+            Collaborated directly with UX and company stakeholders to add
+            critical features.
+          </li>
+          <li>
+            Contributed to dev team code reviews to ensure high quality,
+            maintainable code.
+          </li>
+          <li>
+            Mentored interns in their journey to becoming software developers.
+          </li>
+        </ul>
+        <div className="flex justify-between">
+          <h2 className="hidden lg:block ml-6 mt-4">
+            Software Development Intern
+          </h2>
+          <h2 className="block lg:hidden ml-6 mt-4">Software Intern</h2>
+          <h2 className="hidden lg:block mt-4">Mar 2024 - May 2024</h2>
           <h2 className="block lg:hidden mt-4 ">03/24 - Now</h2>
         </div>
         <h3 className="text-base ml-8">Successr.ai - Lehi, UT</h3>
@@ -18,16 +40,8 @@ export default function EmploymentHistory() {
             application.
           </li>
           <li>
-            Collaborated directly with UX, company, and stakeholders to add
-            mission-critical features.
-          </li>
-          <li>
             Implemented backend functionality to enhance customer experience
             under the direction of the CTO and senior technical team.
-          </li>
-          <li>
-            Contributed to dev team code reviews to ensure high quality,
-            maintainable code.
           </li>
         </ul>
         <div className="flex justify-between">
