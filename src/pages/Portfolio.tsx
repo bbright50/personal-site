@@ -5,6 +5,7 @@ import AngularLogo from "../assets/AngularLogo.png";
 import PythonLogo from "../assets/PythonLogo.webp";
 import ReactLogo from "../assets/ReactLogo.png";
 import JavaScriptLogo from "../assets/JavaScriptLogo.jpeg";
+import ExpressJSLogo from "../assets/expressjsLogo.png";
 
 const repoArray = [
   {
@@ -57,8 +58,8 @@ const repoArray = [
     key: 6,
   },
   {
-    name: "GraphQL Server",
-    logo: `${GraphQL_Logo}`,
+    name: "Express Server",
+    logo: `${ExpressJSLogo}`,
     link: "https://github.com/bbright50/graphql-server",
     desc: "A server I built to learn GraphQL better, and to have just in case.",
     key: 7,
