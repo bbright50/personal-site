@@ -1,10 +1,9 @@
 import RepoCard from "@/components/RepoCard";
-import GraphQL_Logo from "../assets/GraphQL_Logo.png";
 import GoLangLogo from "../assets/GoLangLogo.png";
 import AngularLogo from "../assets/AngularLogo.png";
 import PythonLogo from "../assets/PythonLogo.webp";
 import ReactLogo from "../assets/ReactLogo.png";
-import JavaScriptLogo from "../assets/JavaScriptLogo.jpeg";
+import JavaScriptLogo from "../assets/JavaScriptLogo.png";
 import ExpressJSLogo from "../assets/expressjsLogo.png";
 
 const repoArray = [
